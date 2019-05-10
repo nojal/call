@@ -11,10 +11,10 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
+clear;
 echo "Selamat Datang Gilang\n\n";
 echo "Masukkan Nomor : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
-echo "\nSELESAI\n";
 ?>
