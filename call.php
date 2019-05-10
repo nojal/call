@@ -11,7 +11,7 @@ function send($phone){
         curl_close($ch);
                 echo $asw."\n";
 }
-clear
+system('clear');
 echo "Selamat Datang Gilang\n\n";
 echo "Masukkan Nomor : ";
 $nomor = trim(fgets(STDIN));
